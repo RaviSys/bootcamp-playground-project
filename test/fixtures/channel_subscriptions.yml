@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  subscriber: one
+  video_channel: one
+  subscribed_at: 2021-07-27 10:33:04
+
+two:
+  subscriber: two
+  video_channel: two
+  subscribed_at: 2021-07-27 10:33:04

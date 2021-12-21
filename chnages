@@ -1,0 +1,60 @@
+# after_commit :display_attributes_after_commit
+
+  # after_commit :display_attributes_after_commit, on: [:create, :update]
+  # after_create_commit :display_attributes_after_commit
+
+  # after_commit :display_attributes_after_commit, on: :update
+  # after_update_commit :display_attributes_after_commit
+
+  # after_commit :display_attributes_after_commit, on: :destroy
+  # after_destroy_commit :display_attributes_after_commit
+
+
+
+  # def display_attributes_after_commit
+  #   puts "I am displaying attributes after commit"
+  #   puts "======================#{attributes}======================"
+  #   puts "======================Attributes Printed======================"
+  # end
+
+  # after_create :display_attributes_after_create
+
+  # after_save :display_attributes_after_save
+
+  # def display_attributes_after_create
+  #   puts "I am displaying attributes after create"
+  #   puts "======================#{attributes}======================"
+  #   puts "======================Attributes Printed======================"
+  # end
+
+  # def display_attributes_after_save
+  #   puts "I am displaying attributes after save"
+  #   puts "======================#{attributes}======================"
+  #   puts "======================Attributes Printed======================"
+  # end
+
+  # before_create :display_title
+  # before_create :display_blank_attributes
+
+  # def display_title
+  #   puts "I am displaying before create"
+  #   puts "======================#{title}======================"
+  #   puts "======================Printed======================"
+  # end
+
+  # def display_blank_attributes
+  #   puts "I am displaying attributes before create"
+  #   puts "======================#{attributes}======================"
+  #   puts "======================Attributes Printed======================"
+  # end
+
+  # # before_create do 
+  # #   puts "Display======================#{title}======================"
+  # # end
+
+  # before_save :display_title_before_save
+
+  # def display_title_before_save
+  #   puts "I am displaying before save"
+  #   puts "======================#{title}======================"
+  # end

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @video_channel.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @video_channel.description %>
+</p>
+
+<%= link_to 'Edit', edit_video_channel_path(@video_channel) %> |
+<%= link_to 'Back', video_channels_path %>
